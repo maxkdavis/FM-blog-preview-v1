@@ -23,6 +23,19 @@ img {
   max-width: 100%;
 }
 
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 150%;
+  align-self: stretch;
+}
+
+h1:hover,
+h1:active {
+  color: hsla(47, 89%, 63%, 1);
+  cursor: pointer;
+}
+
 #container {
   width: 384px;
   background-color: hsl(0, 0%, 100%);
@@ -30,10 +43,39 @@ img {
   margin: auto;
   border: 1px solid black;
   border-radius: 20px;
+  box-shadow: 8px 8px 0px 0px #000;
+}
+
+.hero-img {
+  border-radius: 10px;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   margin: 24px 0;
+  gap: 12px;
+}
+
+.btn {
+  align-self: flex-start;
+  background-color: hsla(47, 89%, 63%, 1);
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+
+.published {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  font-style: normal;
+}
+
+.content-text {
+  font-size: 16px;
+  color: #7f7f7f;
+  line-height: 150%;
 }
 
 .author {
